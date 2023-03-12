@@ -1,0 +1,96 @@
+.navlink:nth-child(3){
+    padding: 15px;
+    font-size: 20px;
+    cursor: default;
+}
+
+.navlink:nth-child(3):hover
+{
+    pointer-events: none;
+    background: none;
+    color: #111;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 16px;
+  }
+
+#regh1
+{
+    margin: 3% 0;
+    margin-top: 6%;
+}
+.Note
+{
+    margin: 1%;
+}
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  #male, #female
+  {
+      display: inline-block;
+      margin: 1% 1% 3%;
+      
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  #complaint
+  {
+    display: block;
+    height: auto;
+    min-height: 100px;
+    width: 70%;
+    padding:1%;
+    margin: 1%;
+    border: none;
+    background-color: #eee;
+  }
+  #complaint:focus
+  {
+      outline: none;
+  }
+  
+  .registerbtn {
+    background-color: rgb(56, 140, 243);
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  

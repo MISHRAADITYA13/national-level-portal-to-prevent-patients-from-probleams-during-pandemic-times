@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reg.css">
+</head> 
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="Logo"></div>
+            <div id="Head"></div>
+            
+        </div>
+        <div id="nav">
+            <a href="home.htm" class="navlink">Home
+            </a><a href="" class="navlink">Register
+            </a><a href="up.htm" class="navlink">File a Complaint
+            </a><a href="" class="navlink">Status Check
+            </a><a href="" class="navlink">Help
+            </a><a href="contactus.htm" class="navlink">Contact Us</a>
+        </div>
+        <form action="#" method="get">
+            <div class="container">
+                <h1 id="regh1">Register</h1>
+                <p class="Note">Please fill to Register your patient.</p>
+                <hr>
+            
+                <label for="Name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+               
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+                
+                <label for="adhar"><b>Aadhar Number</b></label>
+                <input type="text" placeholder="Enter Aadhar number" name="adhar" id="adhar" maxlength="12" required>
+                
+                <label ><b>Gender</b></label><br>
+                <input type="radio" id="male" name="gender" value="Male" >
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female" checked>
+                <label for="female">Female</label><br>
+                
+                <label for="State"><b>State</b></label>
+                <input type="text" placeholder="Enter State" name="State" id="State" required>
+                
+                <label for="District"><b>District</b></label>
+                <input type="text" placeholder="Enter District" name="District" id="District" required>
+                
+                <label for="Hospital"><b>Hospital</b></label>
+                <input type="text" placeholder="Enter Hospital" name="Hospital" id="Hospital" required>
+               
+                <!-- <label for="complaint"><b>Type Your Complaint</b></label>
+                <textarea placeholder="..." name="complaint" id="complaint" rows="10" cols="70" required></textarea> -->
+                <hr>            
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+        </form>
+    </div>  
+    
+</body>
+</html>

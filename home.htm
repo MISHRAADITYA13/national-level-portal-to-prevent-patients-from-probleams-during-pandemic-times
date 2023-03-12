@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="Logo"></div>
+            <div id="Head"></div> 
+            <!-- <div img src="LOGO1.png"></div>
+            <div img src="Head.png"></div> -->
+        </div>
+        <div id="nav">
+            <a href="" class="navlink">Home
+            </a><a href="reg.htm" class="navlink">Register
+            </a><a href="up.htm" class="navlink">File a Complaint
+            </a><a href="" class="navlink">Status Check
+            </a><a href="" class="navlink">Help
+            </a><a href="contactus.htm" class="navlink">Contact Us</a>
+        </div>
+        
+        <div id="container1">
+            <h3>Bed Availability Status</h3>
+            <label>State</label>
+            <select id="State" class="select"name="STATE">
+                <option value="All">All</option>
+                <option value="State1">State1</option>
+                <option value="State2">State2</option>
+                <option value="State3">State3</option>
+                <option value="State4">State4</option>
+                <option value="State4">State5</option>
+            </select>
+            <label>District</label>
+            <select id="District" class="select" name="DISTRICT">
+                <option value="All">All</option>
+                <option value="District1">District1</option>
+                <option value="District2">District2</option>
+                <option value="District3">District3</option>
+                <option value="District4">District4</option>
+                <option value="District4">District5</option>
+            </select>
+            <label>Hospital</label>
+            <select id="Hospital" class="select" name="HOSPITAL">
+                <option value="All">All</option>
+                <option value="Hospital1">Hospital1</option>
+                <option value="Hospital2">Hospital2</option>
+                <option value="Hospital3">Hospital3</option>
+                <option value="Hospital4">Hospital4</option>
+                <option value="Hospital4">Hospital5</option>
+            </select>
+            <input type="button" id="go" value="Find">
+        </div>
+
+        <div id="container2">
+            <div class="datablock"><span class="blockName">Normal Bed</span><span class="number">00</span></div>
+            <div class="datablock"><span class="blockName">Ventilater Bed</span><span class="number">00</span></div>
+            <div class="datablock"><span class="blockName">ICU Bed</span><span class="number">00</span></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="up.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="Logo"></div>
+            <div id="Head"></div>
+            
+        </div>
+        <div id="nav">
+            <a href="home.htm" class="navlink">Home
+            </a><a href="reg.htm" class="navlink">Register
+            </a><a href="" class="navlink">File a Complaint
+            </a><a href="" class="navlink">Status Check
+            </a><a href="" class="navlink">Help
+            </a><a href="contactus.htm" class="navlink">Contact Us</a>
+        </div>
+        <form action="#" method="get">
+            <div class="container">
+                <h1 id="det">Please fill required details</h1>
+            
+                <label for="Name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name" required>
+                
+                <label for="adhar"><b>Aadhar Number</b></label>
+                <input type="text" placeholder="Enter Aadhar number" name="adhar" id="adhar" maxlength="12" required>
+
+                <!-- <label for="complaint"><b>Type Your Complaint</b></label>
+                <textarea placeholder="..." name="complaint" id="complaint" rows="10" cols="70" required></textarea>
+
+                <button type="submit" class="SUB">SUBMIT</button> -->
+
+                <input type="file" id="real-file" hidden="hidden" />
+                <button type="button" id="custom-button">UPLOAD PRESCRIPTION</button>
+                <span id="custom-text">No file chosen, yet .</span>
+
+                <input type="file" id="real-file1" hidden="hidden" />
+                <button type="button" id="custom-button1">UPLOAD BILL</button>
+                <span id="custom-text1">No file chosen, yet .</span>
+
+                <!-- <label for="complaint"><b></b></label> -->
+                <textarea placeholder="Type your complaint" name="complaint" id="complaint" rows="10" cols="70" required></textarea>
+
+                <button type="submit" class="SUB">SUBMIT</button>
+
+            </div>
+        </form>    
+           <script type="text/javascript">
+               const realFileBtn = document.getElementById("real-file");
+               const customBtn = document.getElementById("custom-button");
+               const customTxt = document.getElementById("custom-text");
+
+              customBtn.addEventListener("click", function() {
+              realFileBtn.click();
+              });
+
+             realFileBtn.addEventListener("change", function() {
+             if (realFileBtn.value) {
+             customTxt.innerHTML = realFileBtn.value.match(
+             /[\/\\]([\w\d\s\.\-\(\)]+)$/
+             )[1];
+             } else {
+             customTxt.innerHTML = "No file chosen, yet.";
+             }
+             });
+           </script>
+          
+          <script type="text/javascript">
+            const realFileBtn1 = document.getElementById("real-file1");
+            const customBtn1 = document.getElementById("custom-button1");
+            const customTxt1 = document.getElementById("custom-text1");
+
+           customBtn1.addEventListener("click", function() {
+           realFileBtn.click();
+           });
+
+          realFileBtn1.addEventListener("change", function() {
+          if (realFileBtn.value) {
+          customTxt1.innerHTML = realFileBtn.value.match(
+          /[\/\\]([\w\d\s\.\-\(\)]+)$/
+          )[1];
+          } else {
+          customTxt.innerHTML = "No file chosen, yet.";
+          }
+          });
+        </script>
+
+</body>     
+</html>   

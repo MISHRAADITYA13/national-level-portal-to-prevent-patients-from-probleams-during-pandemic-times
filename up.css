@@ -1,0 +1,87 @@
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+  }
+  #det
+  {
+      margin: 3% 0;
+      margin-top: 6%;
+  }
+  .container {
+    width: 70%;
+    margin: auto;
+    padding: 16px;
+  }
+  #custom-button {
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #custom-button:hover {
+    background-color: #00b28f;
+  }
+  
+  #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+  }
+  #custom-button1 {
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #custom-button1:hover {
+    background-color: #00b28f;
+  }
+  
+  #custom-text1 {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+  }
+  .SUB {
+    background-color: #009578;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+  .SUB:hover {
+    opacity: 1;
+  }
+  #complaint
+  {
+    display: block;
+    height: auto;
+    min-height: 100px;
+    width: 70%;
+    padding:1%;
+    margin: 1%;
+    border: none;
+    background-color: #eee;
+  }
+  #complaint:focus
+  {
+      outline: none;
+  }
+  
