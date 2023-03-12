@@ -1,1 +1,1 @@
-# national-level-portal-to-prevent-patients-from-probleams-during-pandemic-times
+# national-level-portal-to-prevent-patients-from-problems-during-pandemic-times
